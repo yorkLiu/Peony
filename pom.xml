@@ -7,6 +7,9 @@
   <artifactId>Peony</artifactId>
 
   <version>1.0.0</version>
+  <modules>
+    <module>microservice-discovery-eureka</module>
+  </modules>
   <packaging>pom</packaging>
   <name>Spring Boot and Spring Cloud Applications</name>
 
