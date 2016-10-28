@@ -9,6 +9,8 @@
   <version>1.0.0</version>
   <modules>
     <module>microservice-discovery-eureka</module>
+    <module>microservice-config-client-eureka</module>
+    <module>microservice-provider-user</module>
   </modules>
   <packaging>pom</packaging>
   <name>Spring Boot and Spring Cloud Applications</name>
@@ -28,7 +30,7 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
-        <version>Brixton.SR5</version>
+        <version>Brixton.SR3</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
