@@ -21,7 +21,7 @@ public class RibbonController {
   
   @GetMapping("/{id}")
   public User findById(@PathVariable Long id){
-    logger.debug("Ribbon controller find user by id#" + id);
+    logger.debug("Ribbon com.ly.controller find user by id#" + id);
     return ribbonService.findById(id);
   }
 }
